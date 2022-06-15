@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="#" method="get">
+    <fieldset>
+      <legend>Employee survey form</legend>
+        <label for="user_name">First name</label>
+        <input type="text" id="user_name" name="name" placeholder="Enter your name" maxlength="20" required autofocus><br>
+        <label for="user_sername">Last name</label>
+        <input type="text" id="user_sername" name="sername" placeholder="Enter your sername" maxlength="20"><br>
+        <label for="user_email">Your email</label>
+        <input type="email" id="user_email" name="email"  placeholder="Enter your email"><br>
+        <label for="user_phone">Your phone</label>
+        <input type="phone" id="user-phone" name="phone"  placeholder="+37255533444"><br>
+    </fieldset>
+    <label for="work_experience">Work experience in our company</label>
+      <input type="number" id="work_experience" name="work_experience" min="0" max="30" step="3" placeholder="0" required>
+    <p>Do you like work now?</p>
+    <label for="yes">Yes</label>      
+    <input type="radio" id="yes" class="radio" name="like_work" value="yes" checked>
+    <label for="no">No</label>
+    <input type="radio" class="radio" id="no" name="like_work" value="no">
+    <label for="can_not_answer">Can not answer</label>
+    <input type="radio" class="radio" id="can_not_answer" name="like_work" value="can_not_answer">
+    <br>
+    <p>What would you like to change?</p>
+    <label for="schedule">Schedule</label>
+    <input type="checkbox" class="checkbox" id="schedule" name="not_satisfied" value="schedule">
+
+    <label for="list of responsibilities">list of responsibilities</label>
+    <input type="checkbox" class="checkbox" id="list_of_responsibilities" name="not_satisfied" value="list_of_responsibilities" checked>
+   
+    <label for="salary">Salary</label>
+    <input type="checkbox" class="checkbox" id="salary" name="not_satisfied" value="salary" disabled>
+    <br>
+    <label for="working_mode">Working mode</label>
+    <select name="working_mode" id="working_mode">
+      <option value="office">In the office</option>
+      <option value="remotely">Remotely</option>
+      <option value="otional">Optional</option>
+    </select>
+    <br>
+    <label for="suggestions">What would you like to offer?</label>
+    <br>
+    <textarea name="suggestions" id="suggestions" placeholder="Enter your suggestions..."></textarea>
+    <br>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</body>
+</html>

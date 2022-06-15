@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(223, 207, 185);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(27, 4, 49);
+  font-weight: 700;
+}
+  
+form {
+  background-image: url(images/flowers-0000331__1365105970__615.jpg);
+  background-size: cover;
+  margin: 20px auto;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  border: 10px solid  rgb(189, 171, 141);
+  line-height: 2.5;
+}
+
+fieldset, textarea {
+  margin: 10px;
+  border: 2px solid  rgb(62, 44, 78);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+legend {
+  font-size: 30px;
+}
+
+label {
+  padding: 0px 20px;
+}
+
+fieldset input {
+  width: 60%;
+}
+
+input, option {
+  height: 30px;
+  border: 1px solid  rgb(62, 44, 78);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.radio, .checkbox {
+  height: 12px;
+}
+
+textarea {
+  width: 95%;
+  height: 60px;
+}
+
+#submit {
+  width: 30%;
+  height: 40px;
+  border: 2px solid  rgb(62, 44, 78); 
+  border-radius: 20px;
+  background-color: rgb(189, 171, 141);
+  color: rgb(27, 4, 49);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin: 0 20px 20px;
+}
+
+#submit:hover {
+  background-color: rgb(210, 150, 119);
+  box-shadow: 5px 5px 10px rgb(45, 69, 121);
+  outline: 1px solid rgb(219, 125, 219);
+  cursor: pointer;
+}
+
+
+
+
+
